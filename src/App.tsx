@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import { useForm } from "react-hook-form";
+
+import "./App.css";
 
 const App = () => {
+  const { control } = useForm();
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +24,6 @@ const App = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;

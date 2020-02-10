@@ -1,0 +1,6 @@
+{
+  "color": true,
+  "skipJsErrors": true,
+  "browsers": ["chrome"],
+  "src": ["./scripts/**/*.ts", "./scripts/**/*.js"]
+}
